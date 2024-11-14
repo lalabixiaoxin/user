@@ -1,0 +1,16 @@
+[
+  {
+    "Username": "admin",
+    "Password": "admin123",
+    "Role": "Admin",
+    "CDK": null,
+    "IsActivated": true
+  },
+  {
+    "Username": "Wei Qing",
+    "Password": "8335",
+    "Role": "User",
+    "CDK": "F838C92A",
+    "IsActivated": true
+  }
+]
