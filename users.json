@@ -1,16 +1,18 @@
-[
-  {
-    "Username": "admin",
-    "Password": "admin123",
-    "Role": "Admin",
-    "CDK": null,
-    "IsActivated": true
-  },
-  {
-    "Username": "Wei Qing",
-    "Password": "8335",
-    "Role": "User",
-    "CDK": "F838C92A",
-    "IsActivated": true
-  }
-]
+{
+    "users": [
+        {
+            "username": "admin",
+            "password": "hashed_password_here",
+            "role": "Admin",
+            "isActivated": true,
+            "cdk": ""
+        },
+        {
+            "username": "user1",
+            "password": "hashed_password_here",
+            "role": "User",
+            "isActivated": false,
+            "cdk": "CDK123"
+        }
+    ]
+}
