@@ -2,14 +2,14 @@
     "users": [
         {
             "username": "admin",
-            "password": "hashed_password_here",
+            "password": "admin123",
             "role": "Admin",
             "isActivated": true,
             "cdk": ""
         },
         {
-            "username": "user1",
-            "password": "hashed_password_here",
+            "username": "peter",
+            "password": "8335",
             "role": "User",
             "isActivated": false,
             "cdk": "CDK123"
