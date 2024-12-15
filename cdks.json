@@ -1,0 +1,38 @@
+[
+  {
+    "code": "ABCDE12345FGHI67890JK",      // 唯一的 CDK 码
+    "type": "trial",                      // CDK 类型（trial, annual, premium, ultimate）
+    "maxUses": 5,                         // 最大使用次数
+    "remainingUses": 5,                   // 剩余可用次数
+    "expirationDate": null,               // 到期时间，null 表示永久有效
+    "isUsed": false,                      // 是否被使用过
+    "boundDevice": null                   // 绑定设备，null 表示未绑定
+  },
+  {
+    "code": "LMNOP12345QRST67890UV",
+    "type": "annual",
+    "maxUses": -1,                        // -1 表示无限次使用
+    "remainingUses": -1,                  
+    "expirationDate": "2024-12-31",       // 年用 CDK，有效期至 2024 年 12 月 31 日
+    "isUsed": true,
+    "boundDevice": "DESKTOP-XYZ123"       // 已绑定的设备
+  },
+  {
+    "code": "WXYZ12345ABCD67890EF",
+    "type": "premium",
+    "maxUses": -1,
+    "remainingUses": -1,
+    "expirationDate": null,
+    "isUsed": false,
+    "boundDevice": null
+  },
+  {
+    "code": "ULTIMATE09876ZXCV54321",
+    "type": "ultimate",
+    "maxUses": -1,
+    "remainingUses": -1,
+    "expirationDate": null,
+    "isUsed": false,
+    "boundDevice": null
+  }
+]
